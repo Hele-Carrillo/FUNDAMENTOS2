@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Modelo de Caja (Box Model)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <div class="flex-container">
+    <a href="index.html" class="bo">Box Model</a>
+    <a href="posicionamiento.html" class="bo">Posicionamiento</a>
+    <a href="flexbox.html" class="bo">Flexbox y Grid</a>
+    </div>
+  </nav>
+</header>
+<div class="spacer"></div>
+ 
+<main> 
+    
+  <h1>1. Box Model</h1>
+  <p>Es la forma en que CSS estructura todos los elementos como cajas rectangulares. Entender el modelo de caja es clave para controlar el espacio entre elementos y su diseño.</p>
+  <h2>Partes del modelo de caja:</h2>
+  <ul>
+     
+   <pre>  <li >Contenido (content): el texto o imagen dentro del elemento. <br><img src="IMG/feliz.jpg" > <br></li></pre>
+    
+   <pre> <li>Relleno (padding):espacio entre el contenido y el borde.</li></pre>
+   <pre> <li>Borde (border): el marco que rodea al padding.</li></pre>
+   <pre> <li>Margen (margin): espacio entre el borde del elemento y otros elementos.</li></pre>
+  </ul>
+
+  <div class="box-model-example">
+    Ejemplo visual de box model<br />
+    (width: 200px; padding: 10px; border: 2px solid black; margin: 20px)
+  </div>
+
+  <h2>Propiedad <code>box-sizing</code>:</h2>
+  <p><code>content-box</code> (por defecto): ancho y alto solo incluyen el contenido.<br />
+  <code>border-box</code>: el ancho y alto incluyen padding y border.</p>
+
+  <pre>
+* {
+  box-sizing: border-box;
+}
+   
+</main>
+</body>
+</html>

@@ -1,0 +1,139 @@
+/* styles.css */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0px;
+
+  background: #f5f5f5;
+  color: #222;
+}
+
+header {
+background-color: #0b5592;
+  color: white; 
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  text-align: center;
+   
+   
+  
+}
+.bo{
+     background-color: #3178b3;
+  color: white;
+    padding: 5px;
+  margin: 5px;
+  border-radius: 4px;
+  flex: 1;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin-right: 20px;
+  text-decoration: none;
+  font-weight: bold;
+ 
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.spacer {
+  height: 60px; /* igual al header para no tapar contenido */
+}
+
+main {
+  background: white;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 900px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 6px;
+  
+}
+
+
+/* Box Model ejemplo visual */
+.box-model-example {
+  width: 200px;
+  padding: 10px;
+  border: 2px solid rgb(165, 19, 184);
+  margin: 20px auto;
+  background-color: #e1f0f7;
+  text-align: center;
+}
+
+/* Flexbox container demo */
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+ 
+  padding: 15px;
+  border-radius: 6px;
+}
+
+.flex-item {
+ background-color: #0a4474;
+  color: white;
+  padding: 20px;
+  margin: 5px;
+  border-radius: 4px;
+  flex: 1;
+  text-align: center;
+}
+
+/* Grid container demo */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 20px;
+  background-color: #f0f8ff;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.grid-item {
+  background-color: #0a4474;
+  color: white;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+code {
+  background-color: #eee;
+  padding: 2px 5px;
+  border-radius: 3px;
+  font-family: monospace;
+}
+
+
+pre li {
+  background-color: #eee;
+  padding: 10px;
+  overflow-x: auto;
+  border-radius: 4px;
+   background-color: #0a4474;
+  color: white;
+  padding: 20px;
+  margin: 5px;
+  border-radius: 4px;
+  flex: 1;
+  text-align: center;
+}
+
+img{
+    width: 100px;
+    height:100px;
+    align-items: center
+
+}
